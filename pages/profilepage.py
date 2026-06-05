@@ -18,15 +18,15 @@ def cp():
 
 
 
-c1,c2,c3,c6=st.columns(4)
+c1,c2,c3,=st.columns(3)
 c4,c5=st.columns(2)
 c4.header("cv analysis..")
 if c1.button("Change Password",use_container_width=True):
            cp()
 if c2.button("See profile",use_container_width=True):
-           str1=st.session_state['username']
-           str2=st.session_state['password']
-           res=my.find({"Username":srt1,"password":str2})
+           str1=st.session_state["username"]
+           str2=st.session_state["password"]
+           res=my.find({"username":srt1,"password":str2})
            st.success("USER PROFILE")
            for data in res:
                    st.text_input("Username",data["username"])
@@ -37,10 +37,7 @@ if c2.button("See profile",use_container_width=True):
                    st.text_input("Mobile No",data["mobileno"])   
 
 b3=c3.button("CV Analysis",use_container_width=True)
-if c6.button("Logout",use_container_width=True):
-              del st.session_state["username"]
-              del st.session_state["password"]
-              st.switch_page("main.py")
+              
 
 
 
