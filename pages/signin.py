@@ -5,7 +5,6 @@ import pymongo
 conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.3")
 mydb=conn["experi"]
 my=mydb["supriya"]
-       
 st.header("C V Analysis using AI and Machine Learning")
 st.subheader("SignIn")
 
