@@ -1,2 +1,0 @@
-streamlit==1.56.0
-pymongo==4.17.0
