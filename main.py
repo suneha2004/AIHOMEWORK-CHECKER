@@ -7,7 +7,7 @@ for i in range(1,100):
        p.progress(i,"Loading....")
 p.empty()
 st.image("p4.jpeg",width=5000)
-st.header("WELCOME IN PYTHON WEB WORLD!!!")
+st.subheader("WELCOME IN PYTHON WEB WORLD!!!")
 
 
 
