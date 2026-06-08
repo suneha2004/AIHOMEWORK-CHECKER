@@ -7,8 +7,7 @@ for i in range(1,100):
        p.progress(i,"Loading....")
 p.empty()
 st.image("p4.jpeg",width=5000)
-st.title("WELCOME IN PYTHON WEB WORLD!!! bgtyihfr vg6iujg fr78jjhh
-ggreryjhjh hftujfr vftilkkjg gtykjngft gfyukjjftukj dxdrtyhggty hyujhhhgjk gryjjgyu ngfytukmjh fyum")
+st.title("WELCOME IN PYTHON WEB WORLD!!! ")
 
 
 
