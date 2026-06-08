@@ -1,7 +1,5 @@
 import streamlit as st
 import pymongo
-
-
 conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.3")
 mydb=conn["experi"]
 my=mydb["supriya"]
@@ -11,8 +9,8 @@ st.subheader("SignIn")
 
 
 with st.form("SignIn"):
-       t1=st.text_input("👤Username",type="username)
-       t2=st.text_input("🔒 Password",type="password")
+       t1=st.text_input("👤Username")
+       t2=st.text_input("🔒 Password")
        if st.form_submit_button("SignIn"):
               if not t1 or not t2:
                      st.error("Fill The Fields!!!")
