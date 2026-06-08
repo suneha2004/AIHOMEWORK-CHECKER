@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 import time
 st.title("WELCOME IN PYTHON WEB WORLD!!!")
 p=st.progress(0,"Wait for Loading ...")
