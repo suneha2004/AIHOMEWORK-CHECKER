@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import time
-st.title("WELCOME IN PYTHON WEB WORLD!!!")
+st.title("AI HOMEWORK CHECKER!!!")
 p=st.progress(0,"Wait for Loading ...")
 for i in range(1,100):
        time.sleep(0.05)
